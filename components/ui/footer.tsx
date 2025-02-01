@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Logo from "./logo";
+import Tenacitylogo from "@/public/images/Tenacity-Black.png";
+import Image from "next/image";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
@@ -12,7 +14,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
           {/* 1st block */}
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
             <div>
-              <Logo />
+              <Image
+                src={Tenacitylogo}
+                width={120}
+                height={120}
+                alt="Picture of the author"
+              />
             </div>
             <div className="text-sm text-gray-600">
               &copy; Cruip.com - All rights reserved.
@@ -199,7 +206,10 @@ export default function Footer({ border = false }: { border?: boolean }) {
       </div>
 
       {/* Big text */}
-      <div className="relative hidden md:block -mt-16 h-60 w-full" aria-hidden="true">
+      <div
+        className="relative hidden md:block -mt-16 h-60 w-full"
+        aria-hidden="true"
+      >
         <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[300px] font-bold leading-none before:bg-gradient-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['Tenacity'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['Tenacity'] after:[text-shadow:0_1px_0_white]"></div>
         {/* Glow */}
         <div
