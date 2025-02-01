@@ -26,6 +26,10 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>
+        <script
+          id="luma-checkout"
+          src="https://embed.lu.ma/checkout-button.js"
+        ></script>
       </body>
     </html>
   );
