@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import PageIllustration from "@/components/page-illustration";
 
 const schedule = [
   {
@@ -142,11 +141,11 @@ export default function SchedulePage() {
 
   return (
     <section className="relative">
-      <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="pb-12 pt-32 md:pb-20 md:pt-40">
-          <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screenpy-12 px-4 sm:px-6 lg:px-8">
+          <div className="pb-12 pt-32 md:pb-20 md:pt-40">
             <div className="max-w-3xl mx-auto relative" ref={containerRef}>
+              
               {/* Vertical Line */}
               <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-gray-300">
                 {/* Highlighted Line */}
