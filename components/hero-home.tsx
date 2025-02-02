@@ -34,19 +34,19 @@ export default function HeroHome() {
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
-                  <a
-                    className="btn luma-checkout--button group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                    <a
+                    className="btn luma-checkout--button group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto !rounded-md"
                     data-luma-action="checkout"
                     data-luma-event-id="evt-zRwQJc8H77j28sX"
                     href="https://lu.ma/event/evt-zRwQJc8H77j28sX"
-                  >
+                    >
                     <span className="relative inline-flex items-center">
                       Register Now{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
+                      -&gt;
                       </span>
                     </span>
-                  </a>
+                    </a>
                   <a
                     className="btn w-full bg-white text-gray-800 shadow rounded-full hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="/agenda"
