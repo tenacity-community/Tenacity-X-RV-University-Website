@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Logo from "./logo";
-import DevSphereLogo from "@/public/images/devsphere.svg";
+import Tenacitylogo from "@/public/images/Tenacity-Black.png";
+import DevSphereLogo from "@/public/images/devsphere.svg"
+import Image from "next/image";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
@@ -8,15 +10,20 @@ export default function Footer({ border = false }: { border?: boolean }) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Top area: Blocks */}
         <div
-          className={`grid gap-10 py-8 sm:grid-cols-12 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
+          className={`grid gap-10 py-8 sm:grid-cols-10 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
         >
           {/* 1st block */}
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
-            <div>
-              <Logo />
-            </div>
             <div className="text-sm text-gray-600">
-              no copyright, fork this project <Link href="https://github.com" className="text-blue-500">here</Link> :)
+              Website made and managed by
+            </div>
+            <div>
+              <Image
+                src={DevSphereLogo}
+                width={120}
+                height={120}
+                alt="Picture of the author"
+              />
             </div>
           </div>
 
@@ -35,7 +42,8 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://instagram.com/tenacityhq"
+                  target="_blank"
                 >
                   Instagram
                 </Link>
@@ -51,9 +59,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://www.linkedin.com/company/tenacityhq"
                 >
-                  Twitter (X)
+                  Twitter
                 </Link>
               </li>
             </ul>
@@ -66,41 +74,25 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://rvu.edu.in"
                 >
-                  About us
+                  Website
                 </Link>
               </li>
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://instagram.com/rv.university"
                 >
-                  Diversity & Inclusion
+                  Instagram
                 </Link>
               </li>
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://www.linkedin.com/school/rv-university"
                 >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
-                >
-                  Financial statements
+                  Linkedin
                 </Link>
               </li>
             </ul>
@@ -113,15 +105,15 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://0xdevsphere.vercel.app/DAProgram"
                 >
-                  Apprenticeship Program
+                  ApprenticeShip Program
                 </Link>
               </li>
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://instagram.com/devsphere.rvu"
                 >
                   Instagram
                 </Link>
@@ -129,9 +121,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://www.linkedin.com/company/devsphere-rvu"
                 >
-                  Linkedin
+                  LinkedIn
                 </Link>
               </li>
             </ul>
@@ -140,7 +132,10 @@ export default function Footer({ border = false }: { border?: boolean }) {
       </div>
 
       {/* Big text */}
-      <div className="relative hidden md:block -mt-16 h-60 w-full" aria-hidden="true">
+      <div
+        className="relative hidden md:block -mt-16 h-60 w-full"
+        aria-hidden="true"
+      >
         <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[300px] font-bold leading-none before:bg-gradient-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['Tenacity'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['Tenacity'] after:[text-shadow:0_1px_0_white]"></div>
         {/* Glow */}
         <div
