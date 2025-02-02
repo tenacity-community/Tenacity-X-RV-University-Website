@@ -1,4 +1,5 @@
 import PageIllustration from "@/components/page-illustration";
+import Link from "next/link";
 
 export default function HeroHome() {
   return (
@@ -25,10 +26,10 @@ export default function HeroHome() {
                 data-aos-delay={300}
               >
                 Get ready to hack, innovate, and collaborate on 6th January from
-                10:00 AM to 6:30 PM at <br />C Block Homi J Bhabha Seminar Hall (3rd
-                Floor)!
+                10:00 AM to 6:30 PM at <br />C Block Homi J Bhabha Seminar Hall
+                (3rd Floor)!
               </p>
-              <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
+              <div className="relative before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
                   data-aos="zoom-y-out"
@@ -47,12 +48,11 @@ export default function HeroHome() {
                       </span>
                     </span>
                   </a>
-                  <a
+                  <Link
                     className="btn w-full bg-white text-gray-800 shadow rounded-full hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="/agenda"
-                  >
-                    View Agenda
-                  </a>
+                  >View Agenda</Link>
+                  
                 </div>
               </div>
             </div>
