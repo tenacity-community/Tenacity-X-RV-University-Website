@@ -1,8 +1,7 @@
 import Link from "next/link";
-import Logo from "./logo";
-import TenacityLogo from "@/public/images/Tenacity-Black.png"
+import TenacityLogo from "@/public/images/Tenacity-Black.png";
 import RVULogo from "@/public/images/rvu-logo.png";
-import DevSphereLogo from "@/public/images/devsphere.svg"
+import DevSphereLogo from "@/public/images/devsphere.svg";
 import Image from "next/image";
 
 export default function Header() {
@@ -11,7 +10,7 @@ export default function Header() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="relative flex h-14 items-center justify-center gap-3 rounded-2xl bg-white/90 px-3 shadow-lg shadow-black/[0.03] backdrop-blur-sm before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(theme(colors.gray.100),theme(colors.gray.200))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
           {/* Site branding */}
-          <div className="flex flex-1 space-x-3 justify-center md:justify-start items-center">
+          <div className="flex flex-1 space-x-8 justify-center md:justify-start items-center">
             <Image
               src={TenacityLogo}
               width={90}
@@ -32,8 +31,7 @@ export default function Header() {
             />
           </div>
 
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center hidden md:block justify-end gap-3">
+          <ul className="flex flex-1 items-center md:block justify-end gap-3">
             <li className="flex justify-end">
               <Link
                 href="https://lu.ma/event/evt-zRwQJc8H77j28sX"
