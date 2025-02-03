@@ -49,7 +49,7 @@ export default function HeroHome() {
                     </span>
                   </a>
                   <Link
-                    className="btn w-full bg-white text-gray-800 shadow rounded-full hover:bg-gray-50 sm:ml-4 sm:w-auto"
+                    className="btn w-full bg-white text-gray-800 shadow rounded-md hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="/agenda"
                   >View Agenda</Link>
                   
