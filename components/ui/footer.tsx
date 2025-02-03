@@ -105,7 +105,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://0xdevsphere.vercel.app/DAProgram"
                 >
-                  ApprenticeShip Program
+                  Apprenticeship Program
                 </Link>
               </li>
               <li>
