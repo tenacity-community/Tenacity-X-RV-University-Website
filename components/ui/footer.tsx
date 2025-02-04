@@ -57,7 +57,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="https://www.linkedin.com/company/tenacityhq"
+                  href="https://twitter.com/tenacitycomm"
                 >
                   Twitter
                 </Link>
