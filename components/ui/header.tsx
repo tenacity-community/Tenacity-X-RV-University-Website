@@ -31,8 +31,7 @@ export default function Header() {
             />
           </div>
 
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center hidden md:block justify-end gap-3">
+          <ul className="flex flex-1 items-center md:block justify-end gap-3">
             <li className="flex justify-end">
               <Link
                 href="https://lu.ma/event/evt-zRwQJc8H77j28sX"

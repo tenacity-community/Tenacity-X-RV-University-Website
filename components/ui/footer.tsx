@@ -3,6 +3,9 @@ import Logo from "./logo";
 import Tenacitylogo from "@/public/images/Tenacity-Black.png";
 import DevSphereLogo from "@/public/images/devsphere.svg"
 import Image from "next/image";
+import Tenacitylogo from "@/public/images/Tenacity-Black.png";
+import DevSphereLogo from "@/public/images/devsphere.svg"
+import Image from "next/image";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
@@ -10,6 +13,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Top area: Blocks */}
         <div
+          className={`grid gap-10 py-8 sm:grid-cols-10 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
           className={`grid gap-10 py-8 sm:grid-cols-10 md:py-12 ${border ? "border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.200),transparent)1]" : ""}`}
         >
           {/* 1st block */}
@@ -28,12 +32,14 @@ export default function Footer({ border = false }: { border?: boolean }) {
           {/* 2nd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">Tenacity</h3>
+            <h3 className="text-sm font-medium">Tenacity</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://tenacityhq.vercel.app/"
                 >
+                  Website
                   Website
                 </Link>
               </li>
@@ -42,7 +48,10 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://instagram.com/tenacityhq"
                   target="_blank"
+                  href="https://instagram.com/tenacityhq"
+                  target="_blank"
                 >
+                  Instagram
                   Instagram
                 </Link>
               </li>
@@ -52,6 +61,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   href="https://www.linkedin.com/company/tenacityhq"
                 >
                   Linkedin
+                  Linkedin
                 </Link>
               </li>
               <li>
@@ -59,6 +69,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://twitter.com/tenacitycomm"
                 >
+                  Twitter
                   Twitter
                 </Link>
               </li>
@@ -68,12 +79,15 @@ export default function Footer({ border = false }: { border?: boolean }) {
           {/* 3rd block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">RV University</h3>
+            <h3 className="text-sm font-medium">RV University</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://rvu.edu.in"
+                  href="https://rvu.edu.in"
                 >
+                  Website
                   Website
                 </Link>
               </li>
@@ -81,7 +95,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://instagram.com/rv.university"
+                  href="https://instagram.com/rv.university"
                 >
+                  Instagram
                   Instagram
                 </Link>
               </li>
@@ -89,7 +105,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://www.linkedin.com/school/rv-university"
+                  href="https://www.linkedin.com/school/rv-university"
                 >
+                  Linkedin
                   Linkedin
                 </Link>
               </li>
@@ -99,10 +117,12 @@ export default function Footer({ border = false }: { border?: boolean }) {
           {/* 4th block */}
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium">DevSphere</h3>
+            <h3 className="text-sm font-medium">DevSphere</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
+                  href="https://0xdevsphere.vercel.app/DAProgram"
                   href="https://0xdevsphere.vercel.app/DAProgram"
                 >
                   Apprenticeship Program
@@ -112,7 +132,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://instagram.com/devsphere.rvu"
+                  href="https://instagram.com/devsphere.rvu"
                 >
+                  Instagram
                   Instagram
                 </Link>
               </li>
@@ -120,7 +142,9 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://www.linkedin.com/company/devsphere-rvu"
+                  href="https://www.linkedin.com/company/devsphere-rvu"
                 >
+                  LinkedIn
                   LinkedIn
                 </Link>
               </li>
@@ -130,6 +154,10 @@ export default function Footer({ border = false }: { border?: boolean }) {
       </div>
 
       {/* Big text */}
+      <div
+        className="relative hidden md:block -mt-16 h-60 w-full"
+        aria-hidden="true"
+      >
       <div
         className="relative hidden md:block -mt-16 h-60 w-full"
         aria-hidden="true"

@@ -40,11 +40,11 @@ export default function HeroHome() {
                     data-luma-action="checkout"
                     data-luma-event-id="evt-zRwQJc8H77j28sX"
                     href="https://lu.ma/event/evt-zRwQJc8H77j28sX"
-                  >
+                    >
                     <span className="relative inline-flex items-center">
                       Register Now{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
+                      -&gt;
                       </span>
                     </span>
                   </a>
