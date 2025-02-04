@@ -26,7 +26,7 @@ export default function HeroHome() {
                 data-aos-delay={300}
               >
                 Get ready to hack, innovate, and collaborate on 6th January from
-                10:00 AM to 6:30 PM at <br />C Block Homi J Bhabha Seminar Hall
+                10:00 AM to 5:00 PM at <br />C Block Homi J Bhabha Seminar Hall
                 (3rd Floor)!
               </p>
               <div className="relative before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
