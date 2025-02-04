@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Logo from "./logo";
 import Tenacitylogo from "@/public/images/Tenacity-Black.png";
-import DevSphereLogo from "@/public/images/devsphere.svg"
+import DevSphereLogo from "@/public/images/devsphere.svg";
 import Image from "next/image";
 
 export default function Footer({ border = false }: { border?: boolean }) {
@@ -14,9 +14,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
         >
           {/* 1st block */}
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
-            <div className="text-sm text-gray-600">
-              Website Managed By
-            </div>
+            <div className="text-sm text-gray-600">Website Managed By</div>
             <div>
               <Image
                 src={DevSphereLogo}
@@ -34,7 +32,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://tenacityhq.vercel.app/"
                 >
                   Website
                 </Link>
@@ -51,7 +49,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#0"
+                  href="https://www.linkedin.com/company/tenacityhq"
                 >
                   Linkedin
                 </Link>
@@ -59,7 +57,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="https://www.linkedin.com/company/tenacityhq"
+                  href="https://twitter.com/tenacitycomm"
                 >
                   Twitter
                 </Link>
@@ -107,7 +105,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="https://0xdevsphere.vercel.app/DAProgram"
                 >
-                  ApprenticeShip Program
+                  Apprenticeship Program
                 </Link>
               </li>
               <li>

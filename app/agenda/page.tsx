@@ -23,29 +23,13 @@ const schedule = [
     ],
   },
   {
-    time: "10:45 AM - 01:00 PM",
-    event: "Hacking Phase (Round 1)",
+    time: "10:45 AM - 03:00 PM",
+    event: "Hacking Phase",
     description: [
       "The problem statements are revealed, and teams start brainstorming and formulating their approach.",
       "Mentors and organizers walk around to assist teams with technical doubts and guidance.",
       "Teams begin building prototypes and implementing initial versions of their projects.",
       "Regular reminders and progress check-ins by organizers to ensure smooth progress.",
-    ],
-  },
-  {
-    time: "01:00 PM - 02:00 PM",
-    event: "Lunch Break and Networking Session",
-    description: [
-      "Participants take a break and grab lunch.",
-      "Opportunity to interact with other teams, judges, and mentors.",
-      "A casual networking session may be organized, encouraging participants to share their ideas.",
-    ],
-  },
-  {
-    time: "02:00 PM - 04:00 PM",
-    event: "Final Hacking Session (Round 2)",
-    description: [
-      "Teams resume development, refine their features, and finalize their implementations.",
       "Teams work on the UI/UX of their projects, focusing on presentation and user experience.",
       "Participants start documenting their projects (README files, GitHub descriptions, etc.).",
       "Organizers circulate to remind teams about submission deadlines.",
@@ -53,7 +37,7 @@ const schedule = [
     ],
   },
   {
-    time: "04:00 PM - 04:30 PM",
+    time: "03:00 PM - 03:30 PM",
     event: "Shortlisting of Teams for Final Round",
     description: [
       "Teams submit their projects via the provided submission link.",
@@ -64,23 +48,23 @@ const schedule = [
       "Design (UI/UX)",
       "Overall Presentation & Documentation.",
       "Top 10 teams are selected to move forward to the demo round.",
-      "Announcements are made, and selected teams are given 10 minutes to set up for their presentation.",
+      "Announcements are made, and selected teams are given 6 minutes to set up for their presentation.",
     ],
   },
   {
-    time: "04:30 PM - 06:00 PM",
+    time: "03:30 PM - 04:45 PM",
     event: "Team Demos & Presentations",
     description: [
-      "Each of the 10 shortlisted teams presents their project for 10 minutes:",
-      "5 minutes for live demo of their project.",
-      "3 minutes to explain their problem statement, solution, and implementation.",
+      "Each of the 10 shortlisted teams presents their project for 6 minutes:",
+      "2 minutes for live demo of their project.",
+      "2 minutes to explain their problem statement, solution, and implementation.",
       "2 minutes for Q&A with judges.",
       "Judges evaluate teams based on presentation clarity, innovation, feasibility, and technical depth.",
       "Live feedback is given to teams to highlight strengths and potential improvements.",
     ],
   },
   {
-    time: "06:00 PM - 06:30 PM",
+    time: "04:45 PM - 05:00 PM",
     event: "Judges' Deliberation & Award Ceremony",
     description: [
       "Judges deliberate on the final rankings of the projects.",

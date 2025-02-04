@@ -1,7 +1,7 @@
 import Link from "next/link";
-import TenacityLogo from "@/public/images/Tenacity-Black.png";
-import RVULogo from "@/public/images/rvu-logo.png";
-import DevSphereLogo from "@/public/images/devsphere.svg";
+import TenacityLogo from "@/public/images/Tenacity-Black.png"
+import RVULogo from "@/public/images/header_logo.svg";
+import DevSphereLogo from "@/public/images/devsphere.svg"
 import Image from "next/image";
 
 export default function Header() {
